@@ -12,7 +12,7 @@
 .header {
     background-image: url(/assets/svg/Rectangle\ 36.png), url(/assets/svg/Rectangle\ 38.png);
     background-position: left, right;
-    background-size: 630px;
+    background-size: 600px 500px;
     background-repeat: no-repeat;
 }
 
@@ -37,11 +37,11 @@
     padding-top: 20px;
 }
 
-.nav-header a, li{
+.nav-header a{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 12px;
     font-style: normal;
-    font-weight: 100;
+    /* font-weight: 100; */
     color: white;
     text-decoration: none;
     display: flex;
@@ -57,25 +57,98 @@
 }
 
 .nav-header .nav-header-left li{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 15px;
     font-weight: 900;    
 }
 
-.nav-header .nav-header-left ul{
+.nav-header .nav-header-left ul, li{
+    display: flex;
+    font-weight: 100;
     gap: 3px;   
-}
-
-.nav-header .nav-header-right a{
-    color: black;
 }
 
 .nav-header .nav-header-right li:nth-child(2){
     background-color: #FFCA1D;
-    font-size: 12px;
-    font-weight: 900;
+    font-weight: 600 !important;
     padding: 8px 18px;
     border-radius: 3px;
 }
+
+.nav-header .nav-header-right a{
+    color: #1F1F1F;
+}
+
+.content-header-left {
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 300px;
+    margin-top: 60px;
+}
+
+.content-header-left p:first-child {
+    font-size: 12px;
+    color: #606060;
+    background-color: #fff;
+    width: 150px;
+    padding: 5px 5px;
+    border-radius: 3px;
+    text-align: left;
+}
+
+.content-header-left h1 {
+    margin: 10px 0px;
+    font-weight: 900;
+}
+
+.content-header-left p:nth-child(4) {
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 100;
+}
+ .content-header-left p:last-child {
+    width: 80px;
+    color: #1F1F1F;
+    background-color: #FFCA1D;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 15px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 3px;
+ }
+
+ .lucy {
+    width: 140px;
+    height: 140px;
+    /* position: relative; */
+    position: absolute;
+    top: 100px;
+    left: 465px;
+    background-image: url(/assets/svg/Ellipse\ 5.png);
+    background-size: 140px ;
+    background-repeat: no-repeat;
+    background-position: top center;
+    /* background-color: #606060; */
+ }
+
+ .lucy .bg-lucy {
+    background-image: url(/assets/svg/design-eb8605fe-22dc-412f-9589-e45e3ddc2706\ 2.png), url(/assets/svg/Ellipse\ 3.png), url(/assets/svg/Ellipse\ 2.png);
+    width: 120px;
+    height: 130px;
+    background-color: #606060;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    background-position: top 20px center, top center, top center;
+    background-size: 80px, 130px, 130px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+ }
+
+
+
 
 
 
