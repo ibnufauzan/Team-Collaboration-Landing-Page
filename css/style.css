@@ -12,7 +12,7 @@
 .header {
     background-image: url(/assets/svg/Rectangle\ 36.png), url(/assets/svg/Rectangle\ 38.png);
     background-position: left, right;
-    background-size: 600px 500px;
+    background-size: 550px 800px, 550px 500px;
     background-repeat: no-repeat;
 }
 
@@ -36,6 +36,8 @@
     margin: auto;
     padding-top: 20px;
 }
+
+/* nav header */
 
 .nav-header a{
     font-family: 'Nunito Sans', sans-serif;
@@ -80,6 +82,8 @@
     color: #1F1F1F;
 }
 
+/* content header */
+
 .content-header-left {
     color: white;
     font-family: 'Nunito Sans', sans-serif;
@@ -119,13 +123,15 @@
     border-radius: 3px;
  }
 
+/* lucy */
+
  .lucy {
     width: 140px;
     height: 140px;
     /* position: relative; */
     position: absolute;
     top: 100px;
-    left: 465px;
+    left: 415px;
     background-image: url(/assets/svg/Ellipse\ 5.png);
     background-size: 140px ;
     background-repeat: no-repeat;
@@ -146,6 +152,223 @@
     background-repeat: no-repeat;
     border-radius: 50%;
  }
+
+ .lucy-2 {
+    background-color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 5px 40px;
+    position: absolute;
+    top: 190px;
+    left: 360px;
+    border-radius: 50px;
+ }
+
+ .lucy-profile {
+    width: 300px;
+    height: 200px;
+    /* background-color: #606060; */
+    background-image: url(/assets/svg/Rectangle\ 5.svg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: top -22px left 20px;
+    position: absolute;
+    top: 130px;
+    right: 0;
+ }
+
+ .fill-lucy {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+    position: absolute;
+    top: 5px;
+    left: 90px;
+ }
+
+ .fill-lucy > p {
+    width: 40px;
+    color: white;
+    background-color: #3ADAD9;
+    padding: 2px 3px;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    left: 120px;
+ }
+
+ .fill-lucy-1 {
+    width: 150px;
+    /* background-color: #3ADAD9; */
+    position: absolute;
+    top: 17px;
+ }
+
+ .fill-lucy-1 p:first-child {
+    color: #6C71A1;
+ }
+
+ .fill-lucy-1 p:last-child {
+    font-weight: 600;
+ }
+
+ .star-lucy {
+    background-image: url(/assets/svg/Group\ 7.svg);
+    /* background-color: #606060; */
+    background-repeat: no-repeat;
+    background-size: 55px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 45px;
+ }
+
+    /* section mark */
+
+ .section-mark {
+    width: 450px;
+    height: 200px;
+    /* background-color: #606060; */
+    position: absolute;
+    top: 240px;
+    left: 350px;
+ }
+
+ .mark-comment {
+    width: 300px;
+    height: 220px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+    background-image: url(/assets/svg/Rectangle\ 7.svg);
+    /* background-color: #6C71A1; */
+    background-repeat: no-repeat;
+    background-position: left -40px top -10px;
+    background-size: 330px;
+ }
+
+ .fill-mark-1 {
+    /* background-color: #6C71A1; */
+    position: absolute;
+    top: 30px;
+    left: 30px;
+ }
+
+ .fill-mark-1 > p {
+    color: #fff;
+    background-color: #FD9B79;
+    width: 50px;
+    padding: 2px 3px;
+    text-align: center;
+    border-radius: 3px;
+    position: absolute;
+    left: 120px;
+ }
+
+ .fill-mark {
+    width: 150px;
+    /* background-color: #3ADAD9; */
+    position: absolute;
+    top: 17px;
+    left: 10px;
+ }
+
+ .fill-mark p:first-child {
+    color: #6C71A1;
+ }
+
+ .fill-mark p:last-child {
+    font-weight: 600;
+ }
+
+ .star-mark {
+    width: 100px;
+    height: 100px;
+    background-image: url(/assets/svg/Group\ 8.svg);
+    background-size: 55px;
+    background-repeat: no-repeat;
+    background-position: left 10px top 47px;
+ }
+
+ .circle-mark {
+    width: 110px;
+    height: 110px;
+    /* background-color: rosybrown; */
+    background-image: url(/assets/svg/Ellipse\ 6.svg);
+    background-size: 110px;
+    position: absolute;
+    top: 0px;
+    right: 110px;
+ }
+
+ .circle-mark-2 {
+    width: 120px;
+    height: 120px;
+    background-image: url(/assets/svg/Ellipse\ 121.svg);
+    background-size: 100px;
+    background-position: left 5px top 5px;
+    background-repeat: no-repeat;
+ }
+
+ .profile-mark {
+    /* background-color: #6C71A1; */
+    width: 100px;
+    height: 100px;
+    background-image: url(/assets/svg/design-57b902be-69c5-4398-a429-de10addaeff7\ 1.png);
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: left 12px top 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+ }
+
+ .mark {
+    /* width: 40px;
+    height: 40px; */
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 7px;
+    color: #279E73;
+    background-color: #FAFAFA;
+    padding: 2px 18px;
+    border-radius: 50px;
+    position: absolute;
+    top: 35px;
+    right: 90px;
+ }
+
+ .vector-12 {
+    width: 500px;
+    height: 200px;
+    /* background-color: #3ADAD9; */
+    background-image: url(/assets/svg/Vector\ 12.svg);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    position: absolute;
+    top: 0px;
+    left: -100px;
+ }
+
+ .vector-11 {
+    width: 600px;
+    height: 400px;
+    background-image: url(/assets/svg/Vector\ 11.png);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    position: absolute;
+    left: -120px;
+    top: -10px;
+ }
+
+
+
+
+ 
+
+
+
 
 
 
