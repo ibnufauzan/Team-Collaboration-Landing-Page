@@ -4,6 +4,7 @@
 }
 
 .container {
+    font-family: 'Nunito Sans', sans-serif;
     width: 800px;
     position: relative;
     margin: 10px auto;
@@ -233,7 +234,7 @@
     /* background-color: #606060; */
     position: absolute;
     top: 260px;
-    left: 350px;
+    left: 400px;
  }
 
  .mark-comment {
@@ -396,6 +397,45 @@
     position: absolute;
     top: 0;
  }
+
+ /* section-2 */
+.section-2 {
+    width: 700px;
+    margin: auto;
+}
+
+ .section-2-top {
+    /* height: 200px; */
+    /* background-color: #3ADAD9; */
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0px;
+    background-image: url(/assets/svg/Line\ 3.svg);
+    background-repeat: no-repeat;
+    background-size: 50px;
+ }
+
+ .section-2-top-left p {
+    color: #515151;
+    font-size: 12px;
+    width: 280px;
+ }
+
+ .section-2-top-right {
+    /* background-color: #606060; */
+    width: 300px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+ }
+
+ .section-2-top-right img {
+    width: 50px;
+
+ }
+
 
 
 
