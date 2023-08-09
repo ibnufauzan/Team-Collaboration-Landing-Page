@@ -5,7 +5,7 @@
 
 .container {
     font-family: 'Nunito Sans', sans-serif;
-    width: 800px;
+    width: 97vw;
     position: relative;
     margin: 10px auto;
 }
@@ -13,7 +13,7 @@
 .header {
     background-image: url(/assets/svg/Rectangle\ 36.png), url(/assets/svg/Rectangle\ 38.png);
     background-position: left, right;
-    background-size: 550px 800px, 550px 500px;
+    background-size: 820px 800px, 800px 800px;
     background-repeat: no-repeat;
     padding-bottom: 100px;
 }
@@ -33,17 +33,18 @@
 } */
 
 .content-header {
-    width: 700px;
+    width: 80vw;
     /* background-color: black; */
     margin: auto;
-    padding-top: 20px;
+    padding-top: 40px;
+    position: relative;
 }
 
 /* nav header */
 
 .nav-header a{
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     font-style: normal;
     /* font-weight: 100; */
     color: white;
@@ -63,14 +64,14 @@
 .nav-header .nav-header-left li{
     color: white;
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 15px;
+    font-size: 22px;
     font-weight: 900;    
 }
 
 .nav-header .nav-header-left ul, li{
     display: flex;
     font-weight: 100;
-    gap: 3px;   
+    gap: 10px;   
 }
 
 .nav-header .nav-header-right li:nth-child(2){
@@ -87,55 +88,59 @@
 /* content header */
 
 .content-header-left {
+   /* background-color: #2B3377; */
     color: white;
     font-family: 'Nunito Sans', sans-serif;
-    width: 300px;
-    margin-top: 60px;
+    width: 480px;
+    margin-top: 90px;
 }
 
 .content-header-left p:first-child {
-    font-size: 12px;
+    font-size: 15px;
     color: #606060;
     background-color: #fff;
-    width: 150px;
+    width: 200px;
     padding: 5px 5px;
     border-radius: 3px;
     text-align: left;
 }
 
 .content-header-left h1 {
-    margin: 10px 0px;
+    font-size: 48px;
     font-weight: 900;
+    margin: 20px 0px 15px 0px;
+    
 }
 
 .content-header-left p:nth-child(4) {
-    font-size: 14px;
-    margin-top: 10px;
+    font-size: 22px;
+    margin-top: 20px;
     font-weight: 100;
 }
+
  .content-header-left p:last-child {
-    width: 80px;
+    width: 120px;
     color: #1F1F1F;
     background-color: #FFCA1D;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 400;
-    padding: 10px 15px;
+    padding: 12px 15px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 30px;
     border-radius: 3px;
  }
 
 /* lucy */
 
  .lucy {
-    width: 140px;
-    height: 140px;
+    width: 200px;
+    height: 200px;
     /* position: relative; */
     position: absolute;
-    top: 100px;
-    left: 415px;
+    top: 160px;
+    left: 525px;
     background-image: url(/assets/svg/Ellipse\ 5.png);
-    background-size: 140px ;
+    background-size: 200px ;
     background-repeat: no-repeat;
     background-position: top center;
     /* background-color: #606060; */
@@ -143,14 +148,14 @@
 
  .lucy .bg-lucy {
     background-image: url(/assets/svg/design-eb8605fe-22dc-412f-9589-e45e3ddc2706\ 2.png), url(/assets/svg/Ellipse\ 3.png), url(/assets/svg/Ellipse\ 2.png);
-    width: 120px;
-    height: 130px;
+    width: 180px;
+    height: 180px;
     background-color: #606060;
     position: absolute;
-    top: 6px;
+    top: 10px;
     left: 10px;
     background-position: top 20px center, top center, top center;
-    background-size: 80px, 130px, 130px;
+    background-size: 110px, 200px, 200px;
     background-repeat: no-repeat;
     border-radius: 50%;
  }
@@ -158,26 +163,26 @@
  .lucy-2 {
     background-color: #fff;
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 300;
-    padding: 5px 40px;
+    padding: 10px 60px;
     position: absolute;
-    top: 190px;
-    left: 360px;
+    top: 280px;
+    left: 450px;
     border-radius: 50px;
  }
 
  .lucy-profile {
-    width: 300px;
-    height: 200px;
+    width: 500px;
+    height: 400px;
     /* background-color: #606060; */
     background-image: url(/assets/svg/Rectangle\ 5.svg);
-    background-size: 300px;
+    background-size: 450px;
     background-repeat: no-repeat;
-    background-position: top -22px left 20px;
+    background-position: top 0px left 0px;
     position: absolute;
-    top: 130px;
-    right: 0;
+    top: 160px;
+    right: -150px;
  }
 
  .fill-lucy {
@@ -185,26 +190,29 @@
     font-size: 10px;
     font-weight: 100;
     position: absolute;
-    top: 5px;
-    left: 90px;
+    top: 25px;
+    left: 160px;
  }
 
  .fill-lucy > p {
     width: 40px;
     color: white;
     background-color: #3ADAD9;
-    padding: 2px 3px;
+    padding: 5px 10px;
     text-align: center;
     border-radius: 5px;
     position: absolute;
+    top: 15px;
     left: 120px;
  }
 
  .fill-lucy-1 {
-    width: 150px;
+    width: 230px;
+    font-size: 15px;
     /* background-color: #3ADAD9; */
     position: absolute;
-    top: 17px;
+    top: 40px;
+    left: -50px;
  }
 
  .fill-lucy-1 p:first-child {
@@ -219,60 +227,63 @@
     background-image: url(/assets/svg/Group\ 7.svg);
     /* background-color: #606060; */
     background-repeat: no-repeat;
-    background-size: 55px;
+    background-size: 80px;
     width: 100px;
     height: 100px;
     position: absolute;
-    top: 45px;
+    top: 83px;
+    left: -50px;
  }
 
     /* section mark */
 
  .section-mark {
-    width: 450px;
+    width: 600px;
     height: 200px;
     /* background-color: #606060; */
     position: absolute;
-    top: 260px;
-    left: 400px;
+    top: 360px;
+    left: 450px;
  }
 
  .mark-comment {
-    width: 300px;
-    height: 220px;
+    width: 600px;
+    height: 400px;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 10px;
     font-weight: 100;
     background-image: url(/assets/svg/Rectangle\ 7.svg);
     /* background-color: #6C71A1; */
     background-repeat: no-repeat;
-    background-position: left -40px top -10px;
-    background-size: 330px;
+    background-position: left -60px top -10px;
+    background-size: 500px;
  }
 
  .fill-mark-1 {
     /* background-color: #6C71A1; */
     position: absolute;
-    top: 30px;
-    left: 30px;
+    width: 300px;
+    top: 45px;
+    left: 43px;
  }
 
  .fill-mark-1 > p {
     color: #fff;
+    font-size: 15px;
     background-color: #FD9B79;
-    width: 50px;
-    padding: 2px 3px;
+    padding: 3px 15px;
     text-align: center;
-    border-radius: 3px;
+    border-radius: 5px;
     position: absolute;
-    left: 120px;
+    right: 15px;
  }
 
  .fill-mark {
-    width: 150px;
+    /* width: 150px; */
+    font-size: 15px;
     /* background-color: #3ADAD9; */
     position: absolute;
-    top: 17px;
+    top: 30px;
     left: 10px;
  }
 
@@ -285,42 +296,43 @@
  }
 
  .star-mark {
-    width: 100px;
+    width: 200px;
     height: 100px;
     background-image: url(/assets/svg/Group\ 8.svg);
-    background-size: 55px;
+    background-size: 100px;
     background-repeat: no-repeat;
-    background-position: left 10px top 47px;
+    background-position: left 10px top 75px;
  }
 
  .circle-mark {
-    width: 110px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
     /* background-color: rosybrown; */
     background-image: url(/assets/svg/Ellipse\ 6.svg);
-    background-size: 110px;
+    background-repeat: no-repeat;
+    background-size: 150px;
     position: absolute;
-    top: 0px;
-    right: 110px;
+    top: 10px;
+    right: 60px;
  }
 
  .circle-mark-2 {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     background-image: url(/assets/svg/Ellipse\ 121.svg);
-    background-size: 100px;
+    background-size: 140px;
     background-position: left 5px top 5px;
     background-repeat: no-repeat;
  }
 
  .profile-mark {
     /* background-color: #6C71A1; */
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     background-image: url(/assets/svg/design-57b902be-69c5-4398-a429-de10addaeff7\ 1.png);
-    background-size: 80px;
+    background-size: 110px;
     background-repeat: no-repeat;
-    background-position: left 12px top 10px;
+    background-position: left 20px top 15px;
     border-radius: 50%;
     position: absolute;
     left: 5px;
@@ -331,42 +343,42 @@
     /* width: 40px;
     height: 40px; */
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 7px;
+    font-size: 12px;
     color: #279E73;
     background-color: #FAFAFA;
     padding: 2px 18px;
     border-radius: 50px;
     position: absolute;
-    top: 35px;
-    right: 90px;
+    top: 65px;
+    right: 30px;
  }
 
  .vector-12 {
-    width: 500px;
+    width: 800px;
     height: 200px;
     /* background-color: #3ADAD9; */
     background-image: url(/assets/svg/Vector\ 12.svg);
     background-repeat: no-repeat;
-    background-size: 500px;
+    background-size: 600px;
     position: absolute;
     top: 0px;
     left: -100px;
  }
 
  .vector-11 {
-    width: 600px;
+    width: 800px;
     height: 400px;
     background-image: url(/assets/svg/Vector\ 11.png);
     background-repeat: no-repeat;
-    background-size: 600px;
+    background-size: 700px;
     position: absolute;
     left: -120px;
     top: -10px;
  }
 
  .vector-header {
-    width: 800px;
-    height: 465px;
+    width: 97vw;
+    height: 800px;
     /* background-color: #279E73; */
     background-image: url(/assets/svg/Vector\ 8.svg),
                       url(/assets/svg/Vector\ 10.svg),
@@ -377,25 +389,25 @@
                       url(/assets//svg/Vector\ 2.svg), 
                       url(/assets/svg/Ellipse\ 9.svg); 
                       
-    background-size: 400px,
-                     500px,
-                     10px,
-                     25px,
-                     25px,
+    background-size: 550px,
+                     700px,
                      15px,
-                     20px, 
-                     10px;
-    background-position: top 310px left,
-                         top 386px left,
-                         top 90px left 250px, 
-                         top 110px left 370px,
-                         top 230px left 300px,
-                         top 310px left 280px,
-                         top 186px right 50px,
-                         top 185px right 50px;
+                     35px,
+                     45px,
+                     25px,
+                     50px,
+                     25px;
+    background-position: top 440px left,
+                         top 544px left,
+                         top 140px left 380px, 
+                         top 180px left 560px,
+                         top 350px left 470px,
+                         top 460px left 450px,
+                         top 270px right 110px,
+                         top 268px right 110px;
     background-repeat: no-repeat;
     position: absolute;
-    top: 0;
+    top: 0px;
  }
 
  /* section-2 */
