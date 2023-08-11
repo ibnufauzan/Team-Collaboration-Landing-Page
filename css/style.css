@@ -722,6 +722,42 @@
    width: 40px;
 }
 
+/* section setup */
+
+.setup {
+   margin: 100px auto;
+   background-color: #FAFAFF;
+   max-width: 97vw;
+}
+
+.setup-container {
+   margin: auto;
+   max-width: 80vw;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   /* flex-wrap: wrap; */
+}
+
+.setup1 {
+   color: #575757;
+   font-size: 16px;
+   font-family: 'Nunito Sans', sans-serif;
+   font-weight: 100;
+   text-align: start;
+   /* background-color: #2B3377; */
+   max-width: 420px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: start;
+   gap: 20px;
+   /* flex-wrap: wrap; */
+}
+
+.setup1 h4 {
+   font-size: 24px;
+}
  
 
 
