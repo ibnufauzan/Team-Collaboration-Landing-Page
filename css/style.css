@@ -699,7 +699,27 @@
    bottom 120px right 250px,
    bottom 90px left 30px;   
    background-repeat: no-repeat;
+}
+
+.boost-your-work {
+   color: #2F4BDF;
+   font-size: 12px;
+   background-color: #fff;
+   width: 150px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 5px;
+   padding: 5px;
+   border-radius: 5px;
    position: absolute;
+   right: 570px;
+   bottom: 40px;
+   box-shadow: 4px 5px 20px 0px rgba(74, 105, 165, 0.16);
+}
+
+.boost-your-work img {
+   width: 40px;
 }
 
  
